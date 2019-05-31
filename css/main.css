@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body{
+	padding: 0;
+	margin: 0;
+	background:#f4f4f4;
+}
+html,h1,h2,h3,h4,h5,h6,a{
+	font-family: "Raleway";
+}
+.navbar{
+	background:rgb(0, 199, 249);
+}
+.nav-link , .navbar-brand{
+	color: #f4f4f4;
+	cursor: pointer;
+}
+.nav-link{
+	margin-right: 1em !important;
+}
+.nav-link:hover{
+	background: #f4f4f4;
+	color: rgb(199, 0, 249);
+
+}
+.navbar-collapse{
+ justify-content: flex-end;
+}
+.navbar-toggler{
+  background:#fff !important;
+}
+
+/*header style*/
+.header{
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height:100vh;
+}
+.overlay{
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgb(0, 199, 249);
+}
+.description{
+    position: relative;
+	padding: 2em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.description h1{
+	color:rgb(0, 59, 70);
+}
+.description p{
+	color:rgb(0, 59, 70);
+	font-size: 20px;
+	width: 50%;
+	line-height: 1.5;
+}
+.description .btn-social{
+	color:rgb(78, 78, 78) !important;
+	all: unset;
+}
+.description a {
+	all:unset;
+	cursor: pointer;
+}
+.w-25{
+	width: 20% !important;
+}
+.description .btn-social:hover{
+	color:rgb(56, 56, 56) !important;
+}
+.about{
+	margin: 4em 0;
+	padding: 1em;
+	position: relative;
+}
+.about h1{
+	color:rgb(0, 199, 249);
+	margin: 2em;
+}
+.about img{
+	height: 100%;
+    width: 100%;
+    border-radius: 50%
+}
+.about span{
+	display: block;
+	color: #888;
+	position: absolute;
+	left: 115px;
+}
+.about .desc{
+	padding: 2em;
+	border-left:4px solid #10828C;
+}
+.about .desc h3{
+	color: #10828C;
+}
+.about .desc p{
+	line-height:2;
+	color:#888;
+}
+
+
+/*Portfolio*/
+.portfolio{
+	margin: 4em 0;
+    position: relative;	
+}
+.portfolio h1{
+	color:rgb(0, 199, 249);
+	margin: 2em;	
+}
+.portfolio img{
+	 height: 15rem;
+	 width: 100%;
+}
+
+
+/* themes */
+.theame{
+	margin: 4em 0;
+	position: relative;
+
+}
+.theame h1{
+	color:rgb(0, 199, 249);
+	margin: 2em;	
+}
+.theame .item{
+	position: relative;
+	overflow: hidden;
+	min-height: 180px;	
+}
+.theame .item img{
+	height: 150px;
+	width: 100%;
+	object-fit: cover;
+	object-position: top center;
+	transition: all 5s ease;	
+}
+.theame .item:hover img{
+		object-position: bottom center;
+}
+.theame .des{
+	background: rgb(0, 199, 249);
+	color: #fff;
+	text-align: center;
+	border-top-right-radius: 93%;
+	transition:.3s ease-in-out;
+	position: absolute;
+	width: 88%;
+	bottom: 24px;
+
+
+}
+.theame .item:hover .des{
+	height: 100%;
+	background:rgba(0, 199, 249, 0.493);
+    position: absolute;
+	width: 89%;
+	padding: 5em;
+	top: 0;
+	border-top-right-radius: 0;
+}
+.contact-form{
+	margin: 6em 0;
+	position: relative;		
+}
+
+.contact-form h1{
+	padding:2em 1px;
+	color: rgb(0, 199, 249); 
+}
+.contact-form .right{
+	max-width: 600px;
+}
+.contact-form .right .btn-secondary{
+	background:  rgb(0, 199, 249);
+	color: #fff;
+	border:0;
+}
+.contact-form .right .form-control::placeholder{
+	color: #888;
+	font-size: 16px;
+}
