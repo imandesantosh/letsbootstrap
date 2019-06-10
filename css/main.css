@@ -192,3 +192,28 @@ html,h1,h2,h3,h4,h5,h6,a{
 	color: #888;
 	font-size: 16px;
 }
+.navbar-lb .navbar-brand, .nav-link {
+	color: #fff !important;
+}
+
+@media only screen and (max-width:768px) {
+	.description h1 {
+		font-size: 1.7rem;
+	}
+	.description p {
+		width: 100%;
+	}
+	.social > li > a{
+		padding: 10px;
+	}
+	.social > li > a > i{
+		font-size: 1.5em !important;
+	}
+	.about {
+		margin: 1em 0;
+	}
+	.about h1 {
+		margin: 1em;
+	}
+	
+}
